@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.top{
+    background-image: url(./images/banner_about.webp);
+    background-position: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    background-color: rgba(179, 180, 180, 0.3);
+    position: fixed;
+    top: 0px;
+    width: 95%;
+    padding: 25px 50px;
+    align-items: center;
+
+}
+.items a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.items a:hover{
+    color: blueviolet;
+}
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+
+#bite{
+    color: white;
+    font-size: 7vh;
+    font-family: cursive;
+    font-style: bold;
+    text-transform: uppercase;
+    padding-left: 10vh;
+    padding-top: 7rem;
+}
+
+.top2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 3rem;
+
+}
+
+.top3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 3rem;
+
+}
+.img2{
+    height: 400px;
+
+}
+
+.top4{
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    justify-content: space-between;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+#img3text{
+    font-size: 20px;
+    margin-top: 10rem;
+    margin-right: 10rem;
+}
+
+#loc{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.top5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    gap: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#logo{
+    margin-left: 20rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px
+    
+}
+
+.footimg{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    gap: 30px;
+}
+
+.chat{
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    background-color: #FF5672;
+    border: none;
+    margin-left: 93%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    border-top-right-radius: 4px;
+    position: fixed;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#footer{
+    color: white;
+    background: linear-gradient(to right, rgb(232, 81, 225),rgb(239, 64, 87));
+    padding: 15px;
+    text-align: center;
+
+}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+.top{
+    background-image: url(./images/app-link-background.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
+    margin-top: 0px;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(179, 180, 180, 0.3);
+    font-family: "Nunito", sans-serif;
+    position: fixed;
+    top: 0px;
+    width: 95%;
+    padding: 20px 40px;
+    align-items: center;
+
+}
+
+.items{
+    display: flex;
+    gap: 10px;
+
+}
+
+.items a:hover{
+    color: blueviolet;
+}
+.items a{
+    color: white;
+    padding: 1rem;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+
+#oneclick{
+    color: white;
+    text-align: center;
+    padding-top: 40vh;
+    font-family: cursive;
+    margin-top: 0px;
+    font-size: 5.6rem;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 2px;
+}
+.oow{
+    border: none;
+    background-color: rgb(184, 60, 60);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 42rem; 
+}
+#or{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px ;
+    font-style: bold;
+    margin: auto;
+}
+.ag{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+#features{
+    text-align: center;
+    /* background-color: rgba(194, 198, 202, 0.397); */
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    margin: 5rem auto;
+    margin-bottom: 5rem;
+}
+
+.bowl{
+    display: flex;
+    justify-content: space-evenly;
+    height: 13rem;
+}
+
+.text{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+    background-position: 100vh;
+}
+.top2{
+    background-image: url(./images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 6rem;
+
+}
+#food{
+    color: white;
+    text-align: center;
+    padding-top: 17rem;
+    font-family: cursive;
+    font-size: 15vh;
+  
+}
+
+.top3{
+    background-image: url(./images/banner-2_home.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+#snack{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15vh;
+    margin: 0;
+}
+
+.fullmenu{
+    border: 5px solid white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: rgb(9, 8, 8);
+    cursor: pointer;
+    margin-left: 42rem;
+    margin-top: 10rem;
+    font-size: 30px;
+}
+
+#connect{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.top4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;    
+}
+
+.email{
+    border: 1px solid black;
+    border-radius: 40px;
+    max-width: 500px;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 3vh;
+    font-weight: lighter;
+
+    
+    
+}
+#submit{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+}
+
+.emailsubmit{
+    display: flex;
+    justify-content: center;
+    column-gap: 0px;
+
+
+}
+.footimg{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    gap: 30px;
+}
+
+.chat{
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    background-color: #FF5672;
+    border: none;
+    margin-left: 93%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    border-top-right-radius: 4px;
+    position: fixed;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#footer{
+    color: white;
+    background: linear-gradient(to right, rgb(232, 81, 225),rgb(239, 64, 87));
+    padding: 15px;
+    text-align: center;
+}
+
